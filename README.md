@@ -89,21 +89,23 @@ Monitor your coding agents in real-time:
 ## 🛠️ Quick Start
 
 ```bash
-# Install
-npm install -g openclaw@latest
+# Clone and install dependencies
+git clone https://github.com/deciding/handclaw.git
+cd handclaw
+git submodule update --init --recursive
 
-# Set up Slack connection
-openclaw onboard
+# Install and build
+pnpm install
+pnpm ui:build
+pnpm build
 
-# Connect your first agent
-openclaw agent connect claude-code
-
-# Start coding from Slack!
-openclaw agent --message "Create a hello world app"
+# Set up Slack connection and install daemon
+pnpm handclaw onboard --install-daemon
 ```
 
 ### Requirements
 - Node.js 22+
+- pnpm
 - Slack workspace
 - At least one AI coding agent (Claude Code, Codex, or OpenCode)
 
