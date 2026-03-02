@@ -1,7 +1,7 @@
 # 🤖 handclaw
 
 <p align="center">
-  <img src="docs/assets/logo.png" alt="handclaw" width="200" />
+  <img src="assets/logo.png" alt="handclaw" width="200" />
 </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ Monitor your coding agents in real-time:
 
 <!-- Add your demo screenshots/gifs here -->
 <p align="center">
-  <img src="docs/assets/demo-screenshot.png" alt="Demo" width="600" />
+  <img src="assets/demo-screenshot.png" alt="Demo" width="600" />
   <br />
   <em>↑ Add your demo screenshot here</em>
 </p>
