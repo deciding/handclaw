@@ -87,13 +87,29 @@ Each Slack channel = one project with built-in autonomous level control:
 - **l1**: 50% autonomous  
 - **l2**: Fully autonomous (trust the agent)
 
-### 🔀 Migration
+### 🔀 Migration & Status
 
 Just rename the channel to switch agent and autonomous level!
 
-<p align="center">
-  <img src="assets/Migration.png" alt="Migration Demo" width="600" />
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/HandClawSlack.png" alt="Channel Naming" width="250" /><br/>
+      <strong>Channel Naming</strong><br/>
+      <em>l0-claude-repo1</em>
+    </td>
+    <td align="center">
+      <img src="assets/Migration.png" alt="Migration" width="250" /><br/>
+      <strong>Migration</strong><br/>
+      <em>Rename to switch</em>
+    </td>
+    <td align="center">
+      <img src="assets/Status.png" alt="Status" width="250" /><br/>
+      <strong>Status</strong><br/>
+      <em>!rate to check</em>
+    </td>
+  </tr>
+</table>
 
 ```
 #l1-opencode-repo1 → #l0-claude-repo1
@@ -106,14 +122,6 @@ Smoothly toggle between planning and building:
 - `!code switch plan/build` — Switch persistently between plan/build mode
 - `!plan` — One-time plan request (stays in current agent)
 - `!build` — One-time build request (stays in current agent)
-
-### 📊 Agent Observability & Status
-
-Monitor your coding agents in real-time:
-
-<p align="center">
-  <img src="assets/Status.png" alt="Status Demo" width="600" />
-</p>
 
 - `!rate` — Check autonomous level and your acceptance rate
 - `@OpenClawApp status` — Summarize all channels' progress
