@@ -64,10 +64,36 @@ Connect to **Claude Code**, **Codex**, and **OpenCode** through a single Slack w
 Work anywhere. From your phone, tablet, or any device with Slack. Your coding agents are always accessible.
 
 ### 📂 One Channel = One Agent = One Project
-Each Slack channel = one project. No more tab chaos. Organize your work by channel:
-- `#project-alpha` → Claude Code
-- `#project-beta` → Codex
-- `#hotfix` → OpenCode
+Each Slack channel = one project with built-in autonomous level control:
+
+```
+#l0-claude-repo1    → Level 0 (lowest, 80% need user agreement)
+#l1-opencode-repo2  → Level 1 (moderate autonomy)
+#l2-codex-prod      → Level 2 (high autonomy)
+```
+
+- **l0**: 80% of actions need your approval
+- **l1**: 50% autonomous  
+- **l2**: Fully autonomous (trust the agent)
+
+**Migration**: Just rename the channel to switch!
+```
+#l1-opencode-repo1 → #l0-claude-repo1
+```
+
+### 🔄 Plan ↔ Build Mode
+Smoothly toggle between planning and building:
+
+- `!code` — Switch persistently between plan/build mode
+- `!plan` — One-time plan request (stays in current agent)
+- `!build` — Switch to build mode
+
+### 📊 Agent Observability
+Monitor your coding agents in real-time:
+
+- `rate` — Check autonomous level and your acceptance rate
+- Success rate tracking
+- Performance metrics
 
 ### ⚡ Switch Agents Instantly
 Want to try a different agent? Just rename your channel:
@@ -75,15 +101,6 @@ Want to try a different agent? Just rename your channel:
 #my-project-claude → #my-project-codex
 ```
 Done. Agent switched. Zero config.
-
-### 🔄 Plan ↔ Build Mode
-Smoothly toggle between planning and building. Discuss architecture with one agent, then hand off to another for implementation — without leaving Slack.
-
-### 📊 Agent Observability
-Monitor your coding agents in real-time:
-- Success rate tracking
-- Autonomous level indicators
-- Performance metrics
 
 ---
 
