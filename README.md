@@ -73,10 +73,6 @@ We add self evolution skills to each agent.
 
 Each Slack channel = one project with built-in autonomous level control:
 
-<p align="center">
-  <img src="assets/HandClawSlack.png" alt="Channel Naming Convention" width="800" />
-</p>
-
 ```
 #l0-claude-repo1    → Level 0 (lowest, 80% need user agreement)
 #l1-opencode-repo2  → Level 1 (moderate autonomy)
@@ -106,7 +102,7 @@ Just rename the channel to switch agent and autonomous level!
     <td align="center">
       <img src="assets/Status.png" alt="Status" width="250" /><br/>
       <strong>Status</strong><br/>
-      <em>!rate to check</em>
+      <em>`@BotApp status` to check</em>
     </td>
   </tr>
 </table>
