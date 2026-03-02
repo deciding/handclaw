@@ -1,7 +1,7 @@
 # 🤖 handclaw
 
 <p align="center">
-  <img src="assets/logo.png" alt="handclaw" width="200" />
+  <img src="assets/logo.png" alt="handclaw" width="500" />
 </p>
 
 <p align="center">
@@ -93,6 +93,7 @@ Monitor your coding agents in real-time:
 git clone https://github.com/deciding/handclaw.git
 cd handclaw
 git submodule update --init --recursive
+cd openclaw
 
 # Install and build
 pnpm install
