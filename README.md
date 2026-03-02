@@ -63,8 +63,19 @@ Connect to **Claude Code**, **Codex**, and **OpenCode** through a single Slack w
 ### 📱 Mobile-First Development
 Work anywhere. From your phone, tablet, or any device with Slack. Your coding agents are always accessible.
 
+### ⚡ Thinking Process
+The thinking process is streamed to the user.
+
+### ⚡ Self-Evolution
+We add self evolution skills to each agent.
+
 ### 📂 One Channel = One Agent = One Project
+
 Each Slack channel = one project with built-in autonomous level control:
+
+<p align="center">
+  <img src="assets/HandClawSlack.png" alt="Channel Naming Convention" width="800" />
+</p>
 
 ```
 #l0-claude-repo1    → Level 0 (lowest, 80% need user agreement)
@@ -76,31 +87,36 @@ Each Slack channel = one project with built-in autonomous level control:
 - **l1**: 50% autonomous  
 - **l2**: Fully autonomous (trust the agent)
 
-**Migration**: Just rename the channel to switch!
+### 🔀 Migration
+
+Just rename the channel to switch agent and autonomous level!
+
+<p align="center">
+  <img src="assets/Migration.png" alt="Migration Demo" width="600" />
+</p>
+
 ```
 #l1-opencode-repo1 → #l0-claude-repo1
 ```
 
 ### 🔄 Plan ↔ Build Mode
+
 Smoothly toggle between planning and building:
 
-- `!code` — Switch persistently between plan/build mode
+- `!code switch plan/build` — Switch persistently between plan/build mode
 - `!plan` — One-time plan request (stays in current agent)
-- `!build` — Switch to build mode
+- `!build` — One-time build request (stays in current agent)
 
-### 📊 Agent Observability
+### 📊 Agent Observability & Status
+
 Monitor your coding agents in real-time:
 
-- `rate` — Check autonomous level and your acceptance rate
-- Success rate tracking
-- Performance metrics
+<p align="center">
+  <img src="assets/Status.png" alt="Status Demo" width="600" />
+</p>
 
-### ⚡ Switch Agents Instantly
-Want to try a different agent? Just rename your channel:
-```
-#my-project-claude → #my-project-codex
-```
-Done. Agent switched. Zero config.
+- `!rate` — Check autonomous level and your acceptance rate
+- `@OpenClawApp status` — Summarize all channels' progress
 
 ---
 
