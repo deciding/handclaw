@@ -28,14 +28,33 @@ Connect to **Claude Code**, **Codex**, and **OpenCode** through a single Slack w
 
 ---
 
-## 🚀 Why handclaw?
+## 🚀 The Difference
 
-| Before | After |
-|--------|-------|
-| 5 monitors, 5 agent windows | **1 Slack, infinite agents** |
-| Tethered to your laptop | **Code from your phone** |
-| Switch apps to switch agents | **Just rename a channel** |
-| Blindly trust the agent | **Monitor success rates in real-time** |
+<p align="center">
+  <strong>Without handclaw — Chaos</strong>
+</p>
+
+<p align="center">
+  <img src="assets/busy.png" alt="Busy without handclaw" width="800" />
+</p>
+
+<p align="center">
+  <em>Multiple monitors. Tethered to your desk. Constant context switching.</em>
+</p>
+
+---
+
+<p align="center">
+  <strong>With handclaw — Freedom</strong>
+</p>
+
+<p align="center">
+  <img src="assets/HandClawSlackPhone.png" alt="HandClaw Slack Phone" width="800" />
+</p>
+
+<p align="center">
+  <em>One Slack. Any device. Code from anywhere.</em>
+</p>
 
 ---
 
@@ -70,17 +89,9 @@ Monitor your coding agents in real-time:
 
 ## 📸 Demo
 
-<!-- Add your demo screenshots/gifs here -->
 <p align="center">
-  <img src="assets/demo-screenshot.png" alt="Demo" width="600" />
-  <br />
-  <em>↑ Add your demo screenshot here</em>
+  <img src="assets/HandClawSlackDesktop.png" alt="HandClaw Desktop Demo" width="800" />
 </p>
-
-<!-- Video placeholder -->
-<!-- 
-[![Watch Demo](docs/assets/demo-thumbnail.png)](https://your-demo-url.com)
--->
 
 **Live Demo**: _[Add your demo URL here]_
 
