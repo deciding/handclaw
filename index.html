@@ -3,16 +3,78 @@
 <head>
   <meta charset="utf-8">
   <title>handclaw - One Slack = Multiple AI Coding Agents</title>
-  <meta name="google-site-verification" content="M-cydo-i_anigEkEurfITDOgkf1BF2evoQPhub5rDKY" />
   <meta name="description" content="Code anywhere. From anything. Anytime.">
-  <meta http-equiv="refresh" content="0;url=https://github.com/deciding/handclaw/blob/main/README.md">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0d1117; color: #c9d1d9; display: flex; justify-content: center; align-items: center; height: 100vh; }
-    a { color: #58a6ff; font-size: 1.5rem; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+    .logo { width: 400px; margin-bottom: 20px; }
+    h1 { font-size: 2.5rem; color: #fff; margin-bottom: 10px; }
+    .tagline { font-size: 1.5rem; color: #58a6ff; margin-bottom: 30px; }
+    .subtitle { font-size: 1.1rem; color: #8b949e; margin-bottom: 40px; max-width: 600px; text-align: center; line-height: 1.6; }
+    .images { display: flex; gap: 20px; margin-bottom: 40px; flex-wrap: wrap; justify-content: center; }
+    .images img { border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.4); max-width: 100%; }
+    .btn {
+      display: inline-block;
+      background: #238636;
+      color: #fff;
+      padding: 16px 40px;
+      border-radius: 8px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: #2ea043; }
+    .features { margin-top: 50px; display: flex; gap: 40px; flex-wrap: wrap; justify-content: center; }
+    .feature { text-align: center; }
+    .feature-icon { font-size: 2rem; margin-bottom: 8px; }
+    .feature-text { color: #8b949e; }
+    .note { margin-top: 30px; color: #8b949e; font-size: 0.9rem; }
   </style>
 </head>
 <body>
-  <p>Redirecting to <a href="https://github.com/deciding/handclaw/blob/main/README.md">README.md</a>...</p>
-  <p>Provided by <a href="https://github.com/deciding/handclaw">HandClaw</a>...</p>
+  <img src="assets/logo.png" alt="handclaw" class="logo" />
+  
+  <h1>🤖 handclaw</h1>
+  <p class="tagline">One Slack = Multiple AI Coding Agents</p>
+  <p class="subtitle">Code anywhere. From anything. Anytime.<br/>Control Claude Code, Codex, and OpenCode through Slack.</p>
+  
+  <div class="images">
+    <img src="assets/busy.png" alt="Without handclaw" width="350" />
+    <img src="assets/HandClawSlackPhone.png" alt="With handclaw" width="350" />
+  </div>
+  
+  <a href="https://github.com/deciding/handclaw" class="btn">🚀 View on GitHub</a>
+  
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">📱</div>
+      <div class="feature-text">Mobile-First</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🔄</div>
+      <div class="feature-text">Switch Agents Instantly</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📊</div>
+      <div class="feature-text">Monitor Progress</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🧠</div>
+      <div class="feature-text">Self-Evolution Skills</div>
+    </div>
+  </div>
+  
+  <p class="note">⚠️ You must install Claude Code, Codex, or OpenCode separately.</p>
 </body>
 </html>
