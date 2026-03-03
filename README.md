@@ -156,7 +156,9 @@ pnpm handclaw onboard --install-daemon
 - Node.js 22+
 - pnpm
 - Slack workspace
-- At least one AI coding agent (Claude Code, Codex, or OpenCode)
+- Install your own coding agents: **Claude Code**, **Codex**, and/or **OpenCode**
+
+> ⚠️ **Note**: You must install Claude Code, Codex, or OpenCode separately. handclaw connects to them but doesn't include them.
 
 ---
 
