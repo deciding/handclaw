@@ -152,6 +152,22 @@ pnpm build
 pnpm handclaw onboard --install-daemon
 ```
 
+### Slack Configuration
+
+Set these in your Slack config:
+
+```json
+{
+  "requireMention": false,
+  "groupPolicy": "open",
+  "streaming": "block"
+}
+```
+
+- `requireMention: false` — Respond to any message in the channel
+- `groupPolicy: open` — Allow any channel to use handclaw
+- `streaming: block` — Wait for complete response before sending
+
 ### Requirements
 - Node.js 22+
 - pnpm
