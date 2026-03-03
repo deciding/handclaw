@@ -1,0 +1,9 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "command": {
+    "compact": {
+      "template": "/compact",
+      "description": "手动触发会话压缩"
+    }
+  }
+}
