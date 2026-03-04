@@ -16,18 +16,27 @@
 
 ## ✨ What is handclaw?
 
-Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to Slack. Multi-round conversations, switch agents by renaming channels.
+Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to Slack. Each channel uses one CLI, different channels can use different ones.
 
 ```
 #l0-claude-myapp
   |
   +-- "build a todo app"         --> Claude Code
   |     "add dark mode"          --> Claude Code  
-  |     "switch to codex"        --> rename to #l1-codex-myapp
-  |     "deploy to Vercel"       --> Codex
-  |     "switch to opencode"     --> rename to #l0-opencode-myapp
-  |     "write tests"            --> OpenCode
+  |     "looks good"             --> Claude Code
+
+#l1-codex-backend  (different channel = different CLI)
+  |
+  +-- "optimize the API"        --> Codex
+
+#l0-opencode-utils  (another channel)
+  |
+  +-- "write unit tests"       --> OpenCode
 ```
+
+- One Slack workspace, multiple agents
+- Multi-round conversations
+- Switch agent by renaming channel
 
 ---
 
@@ -54,23 +63,22 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to Slack. Mu
 #l0-claude-myapp (start new project)
   |
   +-- "build a react login page"
-  |     |
-  |     +-- Claude Code: writes code
-  |     |
-  |     +-- "looks good, add google auth"
-  |           |
-  |           +-- Claude Code: adds OAuth
-  |
-  +-- (later) !switch l1-codex-myapp
         |
-        +-- "deploy to production"
+        +-- Claude Code: writes code
+        +-- "looks good, add google auth"
               |
-              +-- Codex: handles deployment
+              +-- Claude Code: adds OAuth
+
+#l1-codex-prod (different channel = different CLI)
+  |
+  +-- "deploy to production"
+        |
+        +-- Codex: handles deployment
 ```
 
-- One Slack = All agents
+- One Slack = Multiple agents (different channels)
 - Code from phone while lying in bed
-- Multi-round conversations with any agent
+- Multi-round conversations
 - Walk away from desk, let agents work
 
 ---
@@ -143,16 +151,15 @@ Just rename the channel to switch agent and autonomous level!
 #l1-opencode-repo1 → #l0-claude-repo1
 ```
 
-### 🔄 Plan ↔ Build Mode
-
-Smoothly toggle between planning and building:
-
-- `!code switch plan/build` — Switch persistently between plan/build mode
-- `!plan` — One-time plan request (stays in current agent)
-- `!build` — One-time build request (stays in current agent)
+### 📊 Status Commands
 
 - `!rate` — Check autonomous level and your acceptance rate
 - `@OpenClawApp status` — Summarize all channels' progress
+
+### 🔄 Plan ↔ Build Mode
+
+- `!plan` — One-time plan request
+- `!build` — One-time build request
 
 ---
 

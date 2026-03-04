@@ -16,18 +16,27 @@
 
 ## ✨ 这是什么？
 
-把 AI 编程助手（**Claude Code**、**Codex**、**OpenCode**）接入 Slack。多轮对话，通过重命名频道切换助手。
+把 AI 编程助手（**Claude Code**、**Codex**、**OpenCode**）接入 Slack。每个频道用一个 CLI，不同频道可以用不同的助手。
 
 ```
 #l0-claude-myapp
   |
   +-- "写一个待办应用"          --> Claude Code
   |     "加个深色模式"          --> Claude Code
-  |     "切换到 codex"          --> 重命名为 #l1-codex-myapp
-  |     "部署到 Vercel"         --> Codex
-  |     "切换到 opencode"       --> 重命名为 #l0-opencode-myapp
-  |     "写一下测试"            --> OpenCode
+  |     "不错"                  --> Claude Code
+
+#l1-codex-backend  (不同频道 = 不同 CLI)
+  |
+  +-- "优化一下 API"           --> Codex
+
+#l0-opencode-utils  (再一个频道)
+  |
+  +-- "写写单元测试"           --> OpenCode
 ```
+
+- 一个 Slack 工作区，多个助手
+- 多轮对话
+- 重命名频道就能切换助手
 
 ---
 
