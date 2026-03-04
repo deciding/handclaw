@@ -16,45 +16,62 @@
 
 ## ✨ What is handclaw?
 
-**handclaw** lets you control AI coding agents directly from Slack — no more jumping between windows, no more monitor clutter, no more being tied to a desk.
-
-Connect to **Claude Code**, **Codex**, and **OpenCode** through a single Slack workspace. Just chat and let them build.
+Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to Slack. Multi-round conversations, switch agents by renaming channels.
 
 ```
-📱 Slack → "Hey, build me a React component" → 🤖 Claude Code → ✅ Done
+#l0-claude-myapp
+  |
+  +-- "build a todo app"         --> Claude Code
+  |     "add dark mode"          --> Claude Code  
+  |     "switch to codex"        --> rename to #l1-codex-myapp
+  |     "deploy to Vercel"       --> Codex
+  |     "switch to opencode"     --> rename to #l0-opencode-myapp
+  |     "write tests"            --> OpenCode
 ```
-
-> **"I can finally code from my phone while lying in bed."** — Every developer who tried it
 
 ---
 
-## 🚀 The Difference
+## My Story
 
-<p align="center">
-  <strong>Without handclaw — Chaos</strong>
-</p>
+### Me Previously — Stuck at Desk
 
 <p align="center">
   <img src="assets/busy.png" alt="Busy without handclaw" width="800" />
 </p>
 
-<p align="center">
-  <em>Multiple monitors. Tethered to your desk. Constant context switching.</em>
-</p>
+- Multiple monitors (5+ windows)
+- Claude Code, Codex, OpenCode — all open at once
+- Tethered to laptop, can't leave desk
+- Every task needs me sitting in front of the computer
 
----
-
-<p align="center">
-  <strong>With handclaw — Freedom</strong>
-</p>
+### With handclaw — AFK Now
 
 <p align="center">
   <img src="assets/HandClawSlackPhone.png" alt="HandClaw Slack Phone" width="800" />
 </p>
 
-<p align="center">
-  <em>One Slack. Any device. Code from anywhere.</em>
-</p>
+```
+#l0-claude-myapp (start new project)
+  |
+  +-- "build a react login page"
+  |     |
+  |     +-- Claude Code: writes code
+  |     |
+  |     +-- "looks good, add google auth"
+  |           |
+  |           +-- Claude Code: adds OAuth
+  |
+  +-- (later) !switch l1-codex-myapp
+        |
+        +-- "deploy to production"
+              |
+              +-- Codex: handles deployment
+```
+
+- One Slack = All agents
+- Code from phone while lying in bed
+- Multi-round conversations with any agent
+- Walk away from desk, let agents work
 
 ---
 
