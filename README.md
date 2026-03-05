@@ -92,22 +92,12 @@ Work anywhere. From your phone, tablet, or any device with Slack. Your coding ag
 The thinking process is streamed to the user.
 
 ### 🧠 Self-Evolution Skills
+
 Add skills to your coding agents (Codex/OpenCode/Claude Code) for enhanced capabilities:
 
-**Core Skills (included):**
-- `skills/coding-agent` — Delegate tasks to Codex, Claude Code, or OpenCode
-- `skills/slack` — Interact with Slack channels
-- `skills/github` — GitHub operations (issues, PRs)
-- `skills/session-logs` — Analyze session logs for self-improvement
+- `skills/project_workflow` — Project workflow automation (build, test, deploy)
 
-**Optional Skills:**
-- `skills/weather` — Weather info
-- `skills/spotify-player` — Spotify control
-- `skills/notion` — Notion integration
-- `skills/obsidian` — Obsidian notes
-- 50+ more in `openclaw/skills/`
-
-> ⚠️ **Important**: You must add these skills to your coding agents (Codex/OpenCode/Claude Code) manually. Each agent has its own skill loading mechanism.
+> ⚠️ **Important**: You must add skills to your coding agents manually. Each agent has its own skill loading mechanism.
 
 ### 📂 One Channel = One Agent = One Project
 
