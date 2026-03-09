@@ -41,6 +41,17 @@
 
 ---
 
+## 安装 (Node ≥22)
+
+```
+npm install -g handclaw@latest
+# 或: pnpm add -g handclaw@latest
+
+handclaw onboard --install-daemon
+```
+
+---
+
 ## 我的故事
 
 ### 以前 — 被困在电脑前
