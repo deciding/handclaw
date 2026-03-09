@@ -1,5 +1,12 @@
 # 🤖 handclaw
 
+```
+npm install -g handclaw@latest
+# or: pnpm add -g handclaw@latest
+
+handclaw onboard --install-daemon
+```
+
 <p align="center">
   <img src="assets/logo.png" alt="handclaw" width="500" />
 </p>
