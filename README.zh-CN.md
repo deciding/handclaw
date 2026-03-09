@@ -5,18 +5,19 @@
 </p>
 
 <p align="center">
-  <strong>一个 Slack = 多个 AI 编程助手</strong>
+  <strong>一个聊天 = 多个 AI 编程助手</strong>
 </p>
 
 <p align="center">
-  随时随地编程。
+  随时随地编程。<br/>
+  （支持 Slack、WhatsApp、Discord、Telegram、飞书）
 </p>
 
 ---
 
 ## ✨ 这是什么？
 
-把 AI 编程助手（**Claude Code**、**Codex**、**OpenCode**）接入 Slack。每个频道用一个 CLI，不同频道可以用不同的助手。
+把 AI 编程助手（**Claude Code**、**Codex**、**OpenCode**）接入 **Slack**、**WhatsApp**、**Discord**、**Telegram** 或 **飞书**。每个频道用一个 CLI，不同频道可以用不同的助手。
 
 ```
 #l0-claude-myapp
@@ -34,7 +35,7 @@
   +-- "写写单元测试"           --> OpenCode
 ```
 
-- 一个 Slack 工作区，多个助手
+- 一个聊天工具 = 多个助手
 - 多轮对话
 - 重命名频道就能切换助手
 
@@ -59,7 +60,7 @@
   <img src="assets/HandClawSlackPhone.png" alt="现在" width="800" />
 </p>
 
-- 一个 Slack = 所有助手
+- 一个聊天 = 所有助手
 - 躺床上用手机就能编程
 - 多轮对话，想聊多久聊多久
 - 走开，让助手干活去

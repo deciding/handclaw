@@ -5,18 +5,19 @@
 </p>
 
 <p align="center">
-  <strong>One Slack = Multiple AI Coding Agents</strong>
+  <strong>One Chat = Multiple AI Coding Agents</strong>
 </p>
 
 <p align="center">
-  Code anywhere. From anything. Anytime.
+  Code anywhere. From anything. Anytime.<br/>
+  (Slack, WhatsApp, Discord, Telegram, Feishu)
 </p>
 
 ---
 
 ## ✨ What is handclaw?
 
-Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to Slack. Each channel uses one CLI, different channels can use different ones.
+Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**, **WhatsApp**, **Discord**, **Telegram**, or **Feishu**. Each channel uses one CLI, different channels can use different ones.
 
 ```
 #l0-claude-myapp
