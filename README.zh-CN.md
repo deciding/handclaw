@@ -168,12 +168,12 @@ pnpm handclaw onboard --install-daemon
 ```json
 {
   "groups": {
-    "120363407410666666@g.us": {
+    "120363407410666666@g.us": { // 群 ID（从日志获取）
       "requireMention": false
     }
   },
   "groupPolicy": "allowlist",
-  "groupAllowFrom": "phone-number"
+  "groupAllowFrom": ["phone-number"]
 }
 ```
 

@@ -214,12 +214,12 @@ Set these in your Slack config:
 ```json
 {
   "groups": {
-    "120363407410666666@g.us": {
+    "120363407410666666@g.us": { // group ID (get from logs)
       "requireMention": false
     }
   },
   "groupPolicy": "allowlist",
-  "groupAllowFrom": "phone-number"
+  "groupAllowFrom": ["phone-number"]
 }
 ```
 
