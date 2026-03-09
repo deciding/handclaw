@@ -163,6 +163,24 @@ pnpm handclaw onboard --install-daemon
 }
 ```
 
+### WhatsApp 配置
+
+```json
+{
+  "groups": {
+    "120363407410666666@g.us": {
+      "requireMention": false
+    }
+  },
+  "groupPolicy": "allowlist",
+  "groupAllowFrom": "phone-number"
+}
+```
+
+1. 重启 handclaw，在群里发一条消息
+2. 运行 `handclaw logs --follow` 查看群 ID
+3. 把群 ID 加入白名单
+
 ### 需要安装
 
 - Node.js 22+

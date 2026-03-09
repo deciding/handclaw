@@ -209,6 +209,24 @@ Set these in your Slack config:
 - `groupPolicy: open` — Allow any channel to use handclaw
 - `streaming: block` — Wait for complete response before sending
 
+### WhatsApp Configuration
+
+```json
+{
+  "groups": {
+    "120363407410666666@g.us": {
+      "requireMention": false
+    }
+  },
+  "groupPolicy": "allowlist",
+  "groupAllowFrom": "phone-number"
+}
+```
+
+1. Restart handclaw and send a message from the group
+2. Run `handclaw logs --follow` to watch for the group ID
+3. Add the group ID to the allowlist
+
 ### Requirements
 - Node.js 22+
 - pnpm
