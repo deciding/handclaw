@@ -30,6 +30,11 @@ handclaw onboard --install-daemon
 
 Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**, **WhatsApp**, **Discord**, **Telegram**, or **Feishu**. Each channel uses one CLI, different channels can use different ones.
 
+<p align="center">
+  <img src="assets/overview.png" alt="Overview" width="800" />
+</p>
+
+
 - One workspace, multiple agents
 - Multi-round conversations
 - Switch agent by renaming channel
@@ -41,10 +46,6 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**
 <p align="center">
   <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw on Phone" width="400" />
   <img src="assets/watch.jpg" alt="HandClaw on Watch" width="200" />
-</p>
-
-<p align="center">
-  <img src="assets/overview.png" alt="Overview" width="800" />
 </p>
 
 - One workspace = Multiple agents

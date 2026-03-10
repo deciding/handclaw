@@ -19,6 +19,11 @@
 
 把 AI 编程助手（**Claude Code**、**Codex**、**OpenCode**）接入 **Slack**、**WhatsApp**、**Discord**、**Telegram** 或 **飞书**。每个频道用一个 CLI，不同频道可以用不同的助手。
 
+<p align="center">
+  <img src="assets/overview.png" alt="概览" width="800" />
+</p>
+
+
 - 一个工作区，多个助手
 - 多轮对话
 - 重命名频道就能切换助手
@@ -30,10 +35,6 @@
 <p align="center">
   <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw 手机" width="400" />
   <img src="assets/watch.jpg" alt="HandClaw 手表" width="200" />
-</p>
-
-<p align="center">
-  <img src="assets/overview.png" alt="概览" width="800" />
 </p>
 
 - 一个工作区 = 多个助手
