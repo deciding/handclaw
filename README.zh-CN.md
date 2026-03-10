@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>一个聊天 = 多个 AI 编程助手</strong>
+  <strong>一个 HandClaw — 多个项目</strong>
 </p>
 
 <p align="center">
-  随时随地编程。<br/>
+  不需要很多 openclaws，一个就能控制全部。<br/>
   （支持 Slack、WhatsApp、Discord、Telegram、飞书）
 </p>
 
@@ -177,9 +177,49 @@ pnpm handclaw onboard --install-daemon
 }
 ```
 
-1. 重启 handclaw，在群里发一条消息
-2. 运行 `handclaw logs --follow` 查看群 ID
-3. 把群 ID 加入白名单
+### Telegram 配置
+
+```json
+{
+  "enabled": true,
+  "dmPolicy": "pairing",
+  "botToken": "YOUR_BOT_TOKEN",
+  "groups": {
+    "-5128902136": { // 群 ID
+      "requireMention": false,
+      "enabled": true
+    }
+  },
+  "groupAllowFrom": [],
+  "groupPolicy": "allowlist",
+  "streaming": "block"
+}
+```
+
+### Discord 配置
+
+```json
+{
+  "enabled": true,
+  "token": "YOUR_DISCORD_TOKEN",
+  "groupPolicy": "open",
+  "streaming": "off",
+  "guilds": {
+    "1480825735710118119": { // guild ID
+      "channels": {
+        "*": { // channel ID
+          "requireMention": false
+        }
+      }
+    }
+  }
+}
+```
+
+### 如何获取 ID
+
+- **Telegram**: @BotFather 创建机器人，@myidbot /getid 获取用户 ID，群里 /getgroupid@myidbot 获取群 ID
+- **Discord**: 频道链接包含 guild ID 和 channel ID：`https://discord.com/channels/{guild_id}/{channel_id}`
 
 ### 需要安装
 

@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>One Chat = Multiple AI Coding Agents</strong>
+  <strong>One HandClaw — Many Projects</strong>
 </p>
 
 <p align="center">
-  Code anywhere. From anything. Anytime.<br/>
+  You don't need many openclaws. You just need one to control all.<br/>
   (Slack, WhatsApp, Discord, Telegram, Feishu)
 </p>
 
@@ -223,9 +223,49 @@ Set these in your Slack config:
 }
 ```
 
-1. Restart handclaw and send a message from the group
-2. Run `handclaw logs --follow` to watch for the group ID
-3. Add the group ID to the allowlist
+### Telegram Configuration
+
+```json
+{
+  "enabled": true,
+  "dmPolicy": "pairing",
+  "botToken": "YOUR_BOT_TOKEN",
+  "groups": {
+    "-5128902136": { // group ID
+      "requireMention": false,
+      "enabled": true
+    }
+  },
+  "groupAllowFrom": [],
+  "groupPolicy": "allowlist",
+  "streaming": "block"
+}
+```
+
+### Discord Configuration
+
+```json
+{
+  "enabled": true,
+  "token": "YOUR_DISCORD_TOKEN",
+  "groupPolicy": "open",
+  "streaming": "off",
+  "guilds": {
+    "1480825735710118119": { // guild ID
+      "channels": {
+        "*": { // channel ID
+          "requireMention": false
+        }
+      }
+    }
+  }
+}
+```
+
+### How to Get IDs
+
+- **Telegram**: @BotFather to create bot, @myidbot /getid for user ID, /getgroupid@myidbot in group for group ID
+- **Discord**: Channel link contains guild ID and channel ID: `https://discord.com/channels/{guild_id}/{channel_id}`
 
 ### Requirements
 - Node.js 22+
