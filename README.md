@@ -30,45 +30,17 @@ handclaw onboard --install-daemon
 
 Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**, **WhatsApp**, **Discord**, **Telegram**, or **Feishu**. Each channel uses one CLI, different channels can use different ones.
 
-```
-#l0-claude-myapp
-  |
-  +-- "build a todo app"         --> Claude Code
-  |     "add dark mode"          --> Claude Code  
-  |     "looks good"             --> Claude Code
-
-#l1-codex-backend  (different channel = different CLI)
-  |
-  +-- "optimize the API"        --> Codex
-
-#l0-opencode-utils  (another channel)
-  |
-  +-- "write unit tests"       --> OpenCode
-```
-
-- One Slack workspace, multiple agents
+- One workspace, multiple agents
 - Multi-round conversations
 - Switch agent by renaming channel
 
 ---
 
-## My Story
-
-### Me Previously — Stuck at Desk
+## With handclaw — AFK Now
 
 <p align="center">
-  <img src="assets/busy.png" alt="Busy without handclaw" width="800" />
-</p>
-
-- Multiple monitors (5+ windows)
-- Claude Code, Codex, OpenCode — all open at once
-- Tethered to laptop, can't leave desk
-- Every task needs me sitting in front of the computer
-
-### With handclaw — AFK Now
-
-<p align="center">
-  <img src="assets/HandClawSlackPhone.png" alt="HandClaw Slack Phone" width="800" />
+  <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw on Phone" width="400" />
+  <img src="assets/watch.jpeg" alt="HandClaw on Watch" width="200" />
 </p>
 
 ```
@@ -88,10 +60,24 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**
         +-- Codex: handles deployment
 ```
 
-- One Slack = Multiple agents (different channels)
-- Code from phone while lying in bed
-- Multi-round conversations
-- Walk away from desk, let agents work
+- One workspace = Multiple agents
+- Code from phone, even from your watch
+- Walk away, let agents work
+
+---
+
+## My Story
+
+### Me Previously — Stuck at Desk
+
+<p align="center">
+  <img src="assets/busy.png" alt="Busy without handclaw" width="800" />
+</p>
+
+- Multiple monitors (5+ windows)
+- Claude Code, Codex, OpenCode — all open at once
+- Tethered to laptop, can't leave desk
+- Every task needs me sitting in front of the computer
 
 ---
 
@@ -194,6 +180,8 @@ pnpm handclaw onboard --install-daemon
 ```
 
 ### Slack Configuration
+
+See [SLACK_INSTALL.md](./SLACK_INSTALL.md) for setup instructions.
 
 Set these in your Slack config:
 

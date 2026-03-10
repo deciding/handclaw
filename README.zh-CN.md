@@ -19,36 +19,39 @@
 
 把 AI 编程助手（**Claude Code**、**Codex**、**OpenCode**）接入 **Slack**、**WhatsApp**、**Discord**、**Telegram** 或 **飞书**。每个频道用一个 CLI，不同频道可以用不同的助手。
 
-```
-#l0-claude-myapp
-  |
-  +-- "写一个待办应用"          --> Claude Code
-  |     "加个深色模式"          --> Claude Code
-  |     "不错"                  --> Claude Code
-
-#l1-codex-backend  (不同频道 = 不同 CLI)
-  |
-  +-- "优化一下 API"           --> Codex
-
-#l0-opencode-utils  (再一个频道)
-  |
-  +-- "写写单元测试"           --> OpenCode
-```
-
-- 一个聊天工具 = 多个助手
+- 一个工作区，多个助手
 - 多轮对话
 - 重命名频道就能切换助手
 
 ---
 
-## 安装 (Node ≥22)
+## 用 handclaw — 躺平摸鱼
+
+<p align="center">
+  <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw 手机" width="400" />
+  <img src="assets/watch.jpeg" alt="HandClaw 手表" width="200" />
+</p>
 
 ```
-npm install -g handclaw@latest
-# 或: pnpm add -g handclaw@latest
+#l0-claude-myapp (新项目)
+  |
+  +-- "写一个登录页面"
+        |
+        +-- Claude Code: 写代码
+        +-- "不错，加个 Google 登录"
+              |
+              +-- Claude Code: 添加 OAuth
 
-handclaw onboard --install-daemon
+#l1-codex-prod (不同频道 = 不同 CLI)
+  |
+  +-- "部署到生产环境"
+        |
+        +-- Codex: 处理部署
 ```
+
+- 一个工作区 = 多个助手
+- 手机甚至手表都能编程
+- 走开，让助手干活去
 
 ---
 
@@ -64,17 +67,6 @@ handclaw onboard --install-daemon
 - Claude Code、Codex、OpenCode 同时开着
 - 离不开电脑，走不开
 - 每次都要坐在电脑前
-
-### 现在 — 躺平摸鱼
-
-<p align="center">
-  <img src="assets/HandClawSlackPhone.png" alt="现在" width="800" />
-</p>
-
-- 一个聊天 = 所有助手
-- 躺床上用手机就能编程
-- 多轮对话，想聊多久聊多久
-- 走开，让助手干活去
 
 ---
 
@@ -154,6 +146,8 @@ pnpm handclaw onboard --install-daemon
 ```
 
 ### Slack 配置
+
+见 [SLACK_INSTALL.md](./SLACK_INSTALL.md) 配置说明。
 
 ```json
 {
