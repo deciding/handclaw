@@ -29,25 +29,12 @@
 
 <p align="center">
   <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw 手机" width="400" />
-  <img src="assets/watch.jpeg" alt="HandClaw 手表" width="200" />
+  <img src="assets/watch.jpg" alt="HandClaw 手表" width="200" />
 </p>
 
-```
-#l0-claude-myapp (新项目)
-  |
-  +-- "写一个登录页面"
-        |
-        +-- Claude Code: 写代码
-        +-- "不错，加个 Google 登录"
-              |
-              +-- Claude Code: 添加 OAuth
-
-#l1-codex-prod (不同频道 = 不同 CLI)
-  |
-  +-- "部署到生产环境"
-        |
-        +-- Codex: 处理部署
-```
+<p align="center">
+  <img src="assets/overview.png" alt="概览" width="800" />
+</p>
 
 - 一个工作区 = 多个助手
 - 手机甚至手表都能编程

@@ -40,25 +40,12 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**
 
 <p align="center">
   <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw on Phone" width="400" />
-  <img src="assets/watch.jpeg" alt="HandClaw on Watch" width="200" />
+  <img src="assets/watch.jpg" alt="HandClaw on Watch" width="200" />
 </p>
 
-```
-#l0-claude-myapp (start new project)
-  |
-  +-- "build a react login page"
-        |
-        +-- Claude Code: writes code
-        +-- "looks good, add google auth"
-              |
-              +-- Claude Code: adds OAuth
-
-#l1-codex-prod (different channel = different CLI)
-  |
-  +-- "deploy to production"
-        |
-        +-- Codex: handles deployment
-```
+<p align="center">
+  <img src="assets/overview.png" alt="Overview" width="800" />
+</p>
 
 - One workspace = Multiple agents
 - Code from phone, even from your watch
