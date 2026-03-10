@@ -1,7 +1,7 @@
-# 🤖 handclaw
+# 🤖 HandClaw
 
 <p align="center">
-  <img src="assets/logo.png" alt="handclaw" width="500" />
+  <img src="assets/logo.png" alt="HandClaw" width="500" />
 </p>
 
 <p align="center">
@@ -12,6 +12,8 @@
   You don't need many openclaws. You just need one to control all.<br/>
   (Slack, WhatsApp, Discord, Telegram, Feishu)
 </p>
+
+> 💡 HandClaw connects directly to OpenCode, which offers generous free quota with high-performance free models (Minimax M2.5 or GLM 5).</p>
 
 ---
 
@@ -41,7 +43,7 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**
 
 ---
 
-## With handclaw — AFK Now
+## HandClaw: Remind you when work finished!
 
 <p align="center">
   <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw on Phone" width="400" />

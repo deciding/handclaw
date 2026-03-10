@@ -1,7 +1,7 @@
-# 🤖 handclaw
+# 🤖 HandClaw
 
 <p align="center">
-  <img src="assets/logo.png" alt="handclaw" width="500" />
+  <img src="assets/logo.png" alt="HandClaw" width="500" />
 </p>
 
 <p align="center">
@@ -12,6 +12,8 @@
   不需要很多 openclaws，一个就能控制全部。<br/>
   （支持 Slack、WhatsApp、Discord、Telegram、飞书）
 </p>
+
+> 💡 HandClaw 直接连接 OpenCode，提供慷慨的免费配额和高性能免费模型（Minimax M2.5 或 GLM 5）。
 
 ---
 
@@ -30,7 +32,7 @@
 
 ---
 
-## 用 handclaw — 躺平摸鱼
+## HandClaw: 提醒你工作完成！
 
 <p align="center">
   <img src="assets/HandSlackNarrowPhone.png" alt="HandClaw 手机" width="400" />
