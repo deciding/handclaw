@@ -19,7 +19,7 @@
   <img src="assets/ExtraQuickStart.png" alt="快速安装" width="600" />
 </p>
 
-> 💡 如果你已经安装了 Claude Code / Codex / OpenCode，可以选择"Extra Quick Start"。
+> 💡 选择"Extra Quick Start"可以轻松安装 HandClaw。注意：你需要自行安装 Claude Code / Codex / OpenCode。
 
 ---
 

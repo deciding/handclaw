@@ -30,7 +30,7 @@ handclaw onboard --install-daemon
   <img src="assets/ExtraQuickStart.png" alt="Extra Quick Start" width="600" />
 </p>
 
-> 💡 Choose "Extra Quick Start" if you already have Claude Code / Codex / OpenCode installed.
+> 💡 Choose "Extra Quick Start" for a no-pain HandClaw installation. Note: You must install Claude Code / Codex / OpenCode yourself separately.
 
 ---
 
