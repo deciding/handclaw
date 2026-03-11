@@ -158,7 +158,7 @@ Just rename the channel to switch agent and autonomous level!
 
 ---
 
-## 🛠️ Quick Start
+## 🛠️ Build From Source
 
 ```bash
 # Clone and install dependencies
@@ -199,7 +199,7 @@ Set these in your Slack config:
 ```json
 {
   "groups": {
-    "120363407410666666@g.us": { // group ID (get from logs)
+    "120363407410666666@g.us": { // group ID (use handclaw logs --follow, send a message in group to get)
       "requireMention": false
     }
   },

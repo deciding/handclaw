@@ -143,7 +143,7 @@
 
 ---
 
-## 🛠️ 快速开始
+## 🛠️ 从源码构建
 
 ```bash
 # 克隆并安装
@@ -178,7 +178,7 @@ pnpm handclaw onboard --install-daemon
 ```json
 {
   "groups": {
-    "120363407410666666@g.us": { // 群 ID（从日志获取）
+    "120363407410666666@g.us": { // 群 ID（运行 handclaw logs --follow，在群里发消息获取）
       "requireMention": false
     }
   },
