@@ -77,7 +77,7 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**
 
 ---
 
-## 🎯 Features
+## 📖 How to Use
 
 ### 📱 Mobile-First Development
 Work anywhere. From your phone, tablet, or any device with Slack. Your coding agents are always accessible.
@@ -85,27 +85,27 @@ Work anywhere. From your phone, tablet, or any device with Slack. Your coding ag
 ### ⚡ Thinking Process
 The thinking process is streamed to the user.
 
-### 🧠 Self-Evolution Skills
-
-Add skills to your coding agents (Codex/OpenCode/Claude Code) for enhanced capabilities:
-
-- `skills/project_workflow` — Project workflow automation (build, test, deploy)
-
-> ⚠️ **Important**: You must add skills to your coding agents manually. Each agent has its own skill loading mechanism.
-
 ### 📂 One Channel = One Agent = One Project
 
-Each Slack channel = one project with built-in autonomous level control:
+**Pattern**: `#l0-agent-repo_name`
+
+- `l0/l1/l2` — Autonomous level (author's habit: start with l0)
+- `agent` — Coding agent: `claude`, `codex`, `opencode`
+- `repo_name` — Your project repository name
 
 ```
-#l0-claude-repo1    → Level 0 (lowest, 80% need user agreement)
-#l1-opencode-repo2  → Level 1 (moderate autonomy)
-#l2-codex-prod      → Level 2 (high autonomy)
+#l0-claude-myapp   → Level 0 (80% need user agreement)
+#l1-opencode-api   → Level 1 (moderate autonomy)
+#l2-codex-prod    → Level 2 (fully autonomous)
 ```
 
-- **l0**: 80% of actions need your approval
-- **l1**: 50% autonomous  
-- **l2**: Fully autonomous (trust the agent)
+**My Habit Commands:**
+- `!code <repo>` — Set working repository (searches $WORKSPACE/repo_name, use if channel name doesn't follow pattern)
+- `!code switch plan` — Persistently change to plan mode
+- `!code switch build` — Persistently change to build mode
+- `!code model <model>` — Persistently change the model
+
+> ℹ️ Autonomous level is author's habit. l0 = lowest (80% need approval), l2 = fully autonomous.
 
 ### 🔀 Migration & Status
 

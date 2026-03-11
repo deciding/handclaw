@@ -66,34 +66,32 @@
 
 ---
 
-## 🎯 功能
+## 📖 如何使用
 
 ### 📱 手机就能写代码
 用手机、平板，任何设备上的 Slack 都能控制编程助手。
 
-### 🧠 自我进化技能
-
-为你的编程助手（Codex/OpenCode/Claude Code）添加技能：
-
-- `skills/project_workflow` — 项目工作流自动化（构建、测试、部署）
-
-> ⚠️ **注意**：需要手动把技能添加到你的编程助手里。每个助手有自己的技能加载方式。
-
 ### 🔀 一个频道 = 一个项目 = 一个助手
 
+**格式**: `#l0-agent-repo_name`
+
+- `l0/l1/l2` — 自主级别（作者习惯：从 l0 开始）
+- `agent` — 编程助手：`claude`、`codex`、`opencode`
+- `repo_name` — 项目仓库名
+
 ```
-#l0-claude-repo1    → Level 0（最低，80% 需要确认）
-#l1-opencode-repo2 → Level 1（半自主）
+#l0-claude-myapp   → Level 0（80% 需要确认）
+#l1-opencode-api   → Level 1（半自主）
 #l2-codex-prod     → Level 2（完全自主）
 ```
 
-### 📋 频道命名规则
+**我的习惯命令：**
+- `!code <repo>` — 设置工作仓库（搜索 $WORKSPACE/repo_name，频道名不符合格式时使用）
+- `!code switch plan` — 持久切换到 plan 模式
+- `!code switch build` — 持久切换到 build 模式
+- `!code model <model>` — 持久切换模型
 
-| 字段 | 说明 |
-|------|------|
-| l0/l1/l2 | 自主级别 |
-| claude/codex/opencode | 编程助手 |
-| repo1 | 项目名 |
+> ℹ️ 自主级别是作者的习惯。l0 = 最低（80% 需要确认），l2 = 完全自主。
 
 ### 🔄 切换助手
 
@@ -103,6 +101,26 @@
 #l1-opencode-repo1 → #l0-claude-repo1
 ```
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/HandClawSlack.png" alt="频道命名" width="250" /><br/>
+      <strong>频道命名</strong><br/>
+      <em>l0-claude-repo1</em>
+    </td>
+    <td align="center">
+      <img src="assets/Migration.png" alt="迁移" width="250" /><br/>
+      <strong>迁移</strong><br/>
+      <em>重命名切换</em>
+    </td>
+    <td align="center">
+      <img src="assets/Status.png" alt="状态" width="250" /><br/>
+      <strong>状态</strong><br/>
+      <em>`@BotApp status` 查看</em>
+    </td>
+  </tr>
+</table>
+
 ### 📊 查看状态
 
 - `!rate` — 查看自主级别和通过率
@@ -110,7 +128,8 @@
 
 ### 🔄 Plan ↔ Build 模式
 
-- `!code switch plan/build` — 持久切换
+- `!code switch plan` — 持久切换
+- `!code switch build` — 持久切换
 - `!plan` / `!build` — 临时切换
 
 ---
