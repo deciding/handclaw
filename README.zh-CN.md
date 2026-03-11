@@ -15,6 +15,12 @@
 
 > 💡 HandClaw 直接连接 OpenCode，提供慷慨的免费配额和高性能免费模型（Minimax M2.5 或 GLM 5）。
 
+<p align="center">
+  <img src="assets/ExtraQuickStart.png" alt="快速安装" width="600" />
+</p>
+
+> 💡 如果你已经安装了 Claude Code / Codex / OpenCode，可以选择"Extra Quick Start"。
+
 ---
 
 ## ✨ 这是什么？

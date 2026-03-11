@@ -26,6 +26,12 @@ npm install -g handclaw@latest
 handclaw onboard --install-daemon
 ```
 
+<p align="center">
+  <img src="assets/ExtraQuickStart.png" alt="Extra Quick Start" width="600" />
+</p>
+
+> 💡 Choose "Extra Quick Start" if you already have Claude Code / Codex / OpenCode installed.
+
 ---
 
 ## ✨ What is handclaw?
