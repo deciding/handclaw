@@ -240,6 +240,15 @@ pnpm handclaw onboard --install-daemon
 
 ---
 
+## 💬 加入社区
+
+| 平台 | 链接 |
+|------|------|
+| Discord | [加入 Discord](https://discord.gg/tpTfpGt4) |
+| 微信 | <img src="assets/wechat qr.jpeg" alt="微信" width="150" /> |
+
+---
+
 ## 📖 文档
 
 - [Getting Started](https://docs.openclaw.ai/start/getting-started)

@@ -262,6 +262,15 @@ Set these in your Slack config:
 
 ---
 
+## 💬 Join Community
+
+| Platform | Link |
+|----------|------|
+| Discord | [Join Discord](https://discord.gg/tpTfpGt4) |
+| WeChat | <img src="assets/wechat qr.jpeg" alt="WeChat" width="150" /> |
+
+---
+
 ## 📖 Documentation
 
 - [Getting Started](https://docs.openclaw.ai/start/getting-started)
