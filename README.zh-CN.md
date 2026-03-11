@@ -73,9 +73,9 @@
 
 ### 🔀 一个频道 = 一个项目 = 一个助手
 
-**格式**: `#l0-agent-repo_name`
+**格式**: `#l0-agent-repo_name`（前缀 `l0/l1/l2` 是可选的）
 
-- `l0/l1/l2` — 自主级别（作者习惯：从 l0 开始）
+- `l0/l1/l2` — 自主级别前缀（可选）
 - `agent` — 编程助手：`claude`、`codex`、`opencode`
 - `repo_name` — 项目仓库名
 
@@ -83,15 +83,16 @@
 #l0-claude-myapp   → Level 0（80% 需要确认）
 #l1-opencode-api   → Level 1（半自主）
 #l2-codex-prod     → Level 2（完全自主）
+#claude-myapp      →（无前缀，默认）
 ```
 
-**我的习惯命令：**
+**重要命令：**
 - `!code <repo>` — 设置工作仓库（搜索 $WORKSPACE/repo_name，频道名不符合格式时使用）
 - `!code switch plan` — 持久切换到 plan 模式
 - `!code switch build` — 持久切换到 build 模式
 - `!code model <model>` — 持久切换模型
-
-> ℹ️ 自主级别是作者的习惯。l0 = 最低（80% 需要确认），l2 = 完全自主。
+- `!plan` — 一次性 plan 请求
+- `!build` — 一次性 build 请求
 
 ### 🔄 切换助手
 

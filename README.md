@@ -87,9 +87,9 @@ The thinking process is streamed to the user.
 
 ### 📂 One Channel = One Agent = One Project
 
-**Pattern**: `#l0-agent-repo_name`
+**Pattern**: `#l0-agent-repo_name` (prefix `l0/l1/l2` is optional)
 
-- `l0/l1/l2` — Autonomous level (author's habit: start with l0)
+- `l0/l1/l2` — Autonomous level prefix (optional)
 - `agent` — Coding agent: `claude`, `codex`, `opencode`
 - `repo_name` — Your project repository name
 
@@ -97,15 +97,16 @@ The thinking process is streamed to the user.
 #l0-claude-myapp   → Level 0 (80% need user agreement)
 #l1-opencode-api   → Level 1 (moderate autonomy)
 #l2-codex-prod    → Level 2 (fully autonomous)
+#claude-myapp     → (no prefix, default)
 ```
 
-**My Habit Commands:**
+**Important Commands:**
 - `!code <repo>` — Set working repository (searches $WORKSPACE/repo_name, use if channel name doesn't follow pattern)
 - `!code switch plan` — Persistently change to plan mode
 - `!code switch build` — Persistently change to build mode
 - `!code model <model>` — Persistently change the model
-
-> ℹ️ Autonomous level is author's habit. l0 = lowest (80% need approval), l2 = fully autonomous.
+- `!plan` — One-time plan request
+- `!build` — One-time build request
 
 ### 🔀 Migration & Status
 
