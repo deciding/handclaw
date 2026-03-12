@@ -69,13 +69,15 @@ Connect AI coding agents (**Claude Code**, **Codex**, **OpenCode**) to **Slack**
 | **Notify when task complete** | ✅ Yes | ❌ No |
 | **Switch plan/build mode** | ✅ Yes (`!code switch plan/build`) | ❌ No |
 | **Early stop code CLI** | ✅ Yes (`!stop`) | ❌ No |
-| **Project management via channels** | ✅ All IMs (Slack, WhatsApp, Discord, Telegram, Feishu) | Limited |
+| **Project management via channels** | ✅ Just rename channel | ❌ Need install acpx + complex config |
+| **Support ACP** | ✅ Easy (rename channel) | ❌ Complex (install acpx, configure) |
 
 **HandClaw advantages:**
 1. Notifies users when coding tasks are completed
 2. Supports persistent plan/build mode switching
 3. Can stop running code CLI early with `!stop`
-4. Manages projects via channel naming across all supported IMs
+4. Manages projects via channel naming — just rename the channel to switch agents
+5. No need to install acpx or complex configuration — it just works
 
 ---
 
