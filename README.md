@@ -107,6 +107,7 @@ The thinking process is streamed to the user.
 - `!code model <model>` — Persistently change the model
 - `!plan` — One-time plan request
 - `!build` — One-time build request
+- `!stop` — Stop the running code CLI immediately
 
 ### 🔀 Migration & Status
 
@@ -295,6 +296,25 @@ MIT
 ## 🐋 Built on OpenClaw
 
 handclaw is a personal fork of [OpenClaw](https://openclaw.ai) — the open-source personal AI assistant framework. OpenClaw connects to 15+ messaging channels and supports multiple AI providers.
+
+---
+
+## ⚖️ HandClaw vs OpenClaw ACP
+
+| Feature | HandClaw | OpenClaw ACP |
+|---------|----------|--------------|
+| **Notify when task complete** | ✅ Yes | ❌ No |
+| **Switch plan/build mode** | ✅ Yes (`!code switch plan/build`) | ❌ No |
+| **Early stop code CLI** | ✅ Yes (`!stop`) | ❌ No |
+| **Project management via channels** | ✅ All IMs (Slack, WhatsApp, Discord, Telegram, Feishu) | Limited |
+
+**HandClaw advantages:**
+1. Notifies users when coding tasks are completed
+2. Supports persistent plan/build mode switching
+3. Can stop running code CLI early with `!stop`
+4. Manages projects via channel naming across all supported IMs
+
+---
 
 Check out the main project: [github.com/openclaw/openclaw](https://github.com/openclaw/openclaw)
 
