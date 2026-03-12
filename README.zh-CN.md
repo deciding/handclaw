@@ -51,6 +51,23 @@
 
 ---
 
+## ⚖️ HandClaw vs OpenClaw ACP
+
+| 功能 | HandClaw | OpenClaw ACP |
+|------|----------|--------------|
+| **任务完成通知** | ✅ 是 | ❌ 否 |
+| **切换 plan/build 模式** | ✅ 是（`!code switch plan/build`） | ❌ 否 |
+| **提前停止代码 CLI** | ✅ 是（`!stop`） | ❌ 否 |
+| **通过频道管理项目** | ✅ 所有 IM（Slack、WhatsApp、Discord、Telegram、飞书） | 有限 |
+
+**HandClaw 优势：**
+1. 编程任务完成后通知用户
+2. 支持持久切换 plan/build 模式
+3. 可以用 `!stop` 提前停止正在运行的代码
+4. 通过频道命名在所有支持的 IM 中管理项目
+
+---
+
 ## 我的故事
 
 ### 以前 — 被困在电脑前
@@ -254,23 +271,6 @@ pnpm handclaw onboard --install-daemon
 
 - [Getting Started](https://docs.openclaw.ai/start/getting-started)
 - [Slack Setup](https://docs.openclaw.ai/channels/slack)
-
----
-
-## ⚖️ HandClaw vs OpenClaw ACP
-
-| 功能 | HandClaw | OpenClaw ACP |
-|------|----------|--------------|
-| **任务完成通知** | ✅ 是 | ❌ 否 |
-| **切换 plan/build 模式** | ✅ 是（`!code switch plan/build`） | ❌ 否 |
-| **提前停止代码 CLI** | ✅ 是（`!stop`） | ❌ 否 |
-| **通过频道管理项目** | ✅ 所有 IM（Slack、WhatsApp、Discord、Telegram、飞书） | 有限 |
-
-**HandClaw 优势：**
-1. 编程任务完成后通知用户
-2. 支持持久切换 plan/build 模式
-3. 可以用 `!stop` 提前停止正在运行的代码
-4. 通过频道命名在所有支持的 IM 中管理项目
 
 ---
 
